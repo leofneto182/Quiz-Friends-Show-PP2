@@ -140,3 +140,16 @@ body {
     font-size: 20px;
     font-weight: 600;
 }
+
+.quiz-box header .timer {
+    color: #9e43a2;
+    background: #cce5ff;
+    border: 1px solid #b8daff;
+    height: 45px;
+    padding: 0 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+}
