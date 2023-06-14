@@ -1,3 +1,4 @@
+
 /* Import Friends font-face */
 
 @font-face {font-family: "Gabriel Weiss Friends Font";
@@ -7,47 +8,45 @@
     url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.woff") format("woff"),
     url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.ttf") format("truetype"),
     url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.svg#Gabriel Weiss' Friends Font") format("svg"); }
-
-html {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
-    font-size: 1rem;
     letter-spacing: 0.5px;
 }
 
-body {
+body{
     background: #9e43a2;
 }
 
-::selection {
+::selection{
     background: #9e43a2;
     color: white;
 }
 
-.start-btn,
-.rules-box,
-.quiz-box,
-.result-box {
+.start_btn,
+.info_box,
+.quiz_box,
+.result_box{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.rules-box.activeInfo,
-.quiz-box.activeQuiz,
-.result-box.ActiveResult {
+.info_box.activeInfo,
+.quiz_box.activeQuiz,
+.result_box.activeResult{
     opacity: 1;
     z-index: 5;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
 }
 
-.start-btn button {
+.start_btn button{
     font-size: 25px;
     font-weight: 500;
     color: #9e43a2;
@@ -59,7 +58,7 @@ body {
     cursor: pointer;
 }
 
-.rules-box {
+.info_box{
     width: 540px;
     background: #fff;
     border-radius: 5px;
@@ -69,10 +68,14 @@ body {
     transition: all 0.3s ease;
 }
 
-.rules-box .rules-title {
+.info-title span{
+    font-family: "Gabriel Weiss Friends Font";
+    font-size: 30px;
+}
+.info_box .info-title{
     height: 60px;
     width: 100%;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #9e43a2;
     display: flex;
     align-items: center;
     padding: 0 30px;
@@ -80,26 +83,29 @@ body {
     font-size: 20px;
     font-weight: 600;
 }
-
-.rules-box .rules-list {
+.info_box .info-list{
     padding: 15px 30px;
 }
 
-.rules-box .rules-list .rules span {
+.info_box .info-list .info{
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.info_box .info-list .info span{
     font-weight: 600;
     color: #9e43a2;
 }
-
-.rules-box .buttons { 
+.info_box .buttons{
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 0 30px;
-    border-top: 1px solid lightgrey;
+    border-top: 1px solid #9e43a2;
 }
 
-.rules-box .buttons button {
+.info_box .buttons button{
     margin: 0 5px;
     height: 40px;
     width: 100px;
@@ -113,8 +119,8 @@ body {
     transition: all 0.3s ease;
 }
 
-.quiz-box {
-    width: 550px;
+.quiz_box{
+    width: 300px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -123,7 +129,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.quiz-box header {
+.quiz_box header{
     position: relative;
     z-index: 2;
     height: 70px;
@@ -133,48 +139,54 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.1);
 }
 
-.quiz-box header title {
+.title {
+    font-family: "Gabriel Weiss Friends Font";
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.quiz_box header{
     font-size: 20px;
     font-weight: 600;
 }
 
-.quiz-box header .timer {
+.quiz_box header .timer{
     color: #9e43a2;
     background: #cce5ff;
-    border: 1px solid #b8daff;
+    border: 1px solid #9e43a2;
     height: 45px;
     padding: 0 8px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 145px;
+    width: 135px;
 }
 
-.quiz-box header .timer .time-left-txt {
+.quiz_box header .timer .time_left_txt{
     font-weight: 400;
     font-size: 17px;
     user-select: none;
 }
 
-.quiz-box header .timer .time-sec {
+.quiz_box header .timer .timer_sec{
     font-size: 18px;
     font-weight: 500;
     height: 30px;
     width: 45px;
-    color: #fff;
+    color: #9e43a2;
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
-    background: #343a40; /*change that after*/
-    border: 1px solid #343a40;
+    background: #D2C385;
+    border: 1px solid #9e43a2;
     user-select: none;
 }
 
-.quiz_box header .time-line {
+.quiz_box header .time_line{
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -182,24 +194,24 @@ body {
     background: #9e43a2;
 }
 
-section {
+section{
     padding: 25px 30px 20px 30px;
     background: #fff;
 }
 
-section .question-text {
+section .que_text{
     font-size: 25px;
     font-weight: 600;
 }
 
-section .option-list {
+section .option_list{
     padding: 20px 0px;
     display: block;   
 }
 
-section .option-list .option {
+section .option_list .option{
     background: aliceblue;
-    border: 1px solid #84c5fe;
+    border: 1px solid #9C8CD4;
     border-radius: 5px;
     padding: 8px 15px;
     font-size: 17px;
@@ -211,33 +223,33 @@ section .option-list .option {
     justify-content: space-between;
 }
 
-section .option-list .option:last-child {
+section .option_list .option:last-child{
     margin-bottom: 0px;
 }
 
-section .option-list .option:hover {
+section .option_list .option:hover{
     color: #004085;
     background: #cce5ff;
     border: 1px solid #b8daff;
 }
 
-section .option-list .option.correct {
+section .option_list .option.correct{
     color: #155724;
     background: #d4edda;
     border: 1px solid #c3e6cb;
 }
 
-section .option-list .option.incorrect {
+section .option_list .option.incorrect{
     color: #721c24;
     background: #f8d7da;
     border: 1px solid #f5c6cb;
 }
 
-section .option-list .option.disabled {
+section .option_list .option.disabled{
     pointer-events: none;
 }
 
-section .option-list .option .icon {
+section .option_list .option .icon{
     height: 26px;
     width: 26px;
     border: 2px solid transparent;
@@ -248,13 +260,13 @@ section .option-list .option .icon {
     transition: all 0.3s ease;
     line-height: 24px;
 }
-.option-list .option .icon.tick {
+.option_list .option .icon.tick{
     color: #23903c;
     border-color: #23903c;
     background: #d4edda;
 }
 
-.option-list .option .icon.cross {
+.option_list .option .icon.cross{
     color: #a42834;
     background: #f8d7da;
     border-color: #a42834;
@@ -266,20 +278,20 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid lightgrey;
+    border-top: 1px solid #9e43a2;
 }
 
-footer .total-question span{
+footer .total_que span{
     display: flex;
     user-select: none;
 }
 
-footer .total-question span p{
+footer .total_que span p{
     font-weight: 500;
     padding: 0 5px;
 }
 
-footer .total-question span p:first-child{
+footer .total_que span p:first-child{
     padding-left: 0px;
 }
 
@@ -312,7 +324,7 @@ footer button.show{
     transform: scale(1);
 }
 
-.result-box{
+.result_box{
     background: #fff;
     border-radius: 5px;
     display: flex;
@@ -327,35 +339,35 @@ footer button.show{
     transition: all 0.3s ease;
 }
 
-.result-box .icon{
+.result_box .icon{
     font-size: 100px;
     color: #9e43a2;
     margin-bottom: 10px;
 }
 
-.result-box .complete-text{
+.result_box .complete_text{
     font-size: 20px;
     font-weight: 500;
 }
 
-.result-box .score-text span{
+.result_box .score_text span{
     display: flex;
     margin: 10px 0;
     font-size: 18px;
     font-weight: 500;
 }
 
-.result-box .score-text span p{
+.result_box .score_text span p{
     padding: 0 4px;
     font-weight: 600;
 }
 
-.result-box .buttons{
+.result_box .buttons{
     display: flex;
     margin: 20px 0;
 }
 
-.result-box .buttons button{
+.result_box .buttons button{
     margin: 0 10px;
     height: 45px;
     padding: 0 20px;
@@ -370,21 +382,21 @@ footer button.show{
 }
 
 .buttons button.restart{
-    color: #fff;
-    background: #007bff;
+    background: #D2C385;
+    color: black;
 }
 
 .buttons button.restart:hover{
-    background: #0263ca;
+    color: #fff;
+    background: #8372AA;
 }
 
 .buttons button.quit{
-    color: #007bff;
+    color: #8372AA;
     background: #fff;
 }
 
 .buttons button.quit:hover{
     color: #fff;
-    background: #007bff;
+    background: #8372AA;
 }
-
