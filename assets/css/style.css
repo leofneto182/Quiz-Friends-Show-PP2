@@ -1,0 +1,40 @@
+/* Import Friends font-face */
+
+@font-face {font-family: "Gabriel Weiss Friends Font";
+    src: url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.eot");
+    src: url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/0b7d8a39b62b28cf0cfe3cea90b8baa3.svg#Gabriel Weiss' Friends Font") format("svg"); }
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+body {
+    background: #9e43a2;
+}
+
+::selection {
+    background: #9e43a2;
+    color: white;
+
+}
+
+.start-btn, .rules-box, .quiz-box, .result-box {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
