@@ -89,3 +89,12 @@ body {
     font-weight: 600;
     color: #9e43a2;
 }
+
+.rules-box .buttons { 
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 30px;
+    border-top: 1px solid lightgrey;
+}
