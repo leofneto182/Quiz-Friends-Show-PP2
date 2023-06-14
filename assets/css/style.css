@@ -174,7 +174,7 @@ body {
     user-select: none;
 }
 
-.quiz_box header .time-line{
+.quiz_box header .time-line {
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -182,22 +182,22 @@ body {
     background: #9e43a2;
 }
 
-section{
+section {
     padding: 25px 30px 20px 30px;
     background: #fff;
 }
 
-section .question-text{
+section .question-text {
     font-size: 25px;
     font-weight: 600;
 }
 
-section .option-list{
+section .option-list {
     padding: 20px 0px;
     display: block;   
 }
 
-section .option-list .option{
+section .option-list .option {
     background: aliceblue;
     border: 1px solid #84c5fe;
     border-radius: 5px;
@@ -211,28 +211,51 @@ section .option-list .option{
     justify-content: space-between;
 }
 
-section .option-list .option:last-child{
+section .option-list .option:last-child {
     margin-bottom: 0px;
 }
 
-section .option-list .option:hover{
+section .option-list .option:hover {
     color: #004085;
     background: #cce5ff;
     border: 1px solid #b8daff;
 }
 
-section .option-list .option.correct{
+section .option-list .option.correct {
     color: #155724;
     background: #d4edda;
     border: 1px solid #c3e6cb;
 }
 
-section .option-list .option.incorrect{
+section .option-list .option.incorrect {
     color: #721c24;
     background: #f8d7da;
     border: 1px solid #f5c6cb;
 }
 
-section .option-list .option.disabled{
+section .option-list .option.disabled {
     pointer-events: none;
+}
+
+section .option-list .option .icon {
+    height: 26px;
+    width: 26px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    line-height: 24px;
+}
+.option-list .option .icon.tick {
+    color: #23903c;
+    border-color: #23903c;
+    background: #d4edda;
+}
+
+.option-list .option .icon.cross {
+    color: #a42834;
+    background: #f8d7da;
+    border-color: #a42834;
 }
