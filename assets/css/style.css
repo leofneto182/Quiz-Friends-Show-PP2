@@ -98,3 +98,27 @@ body {
     padding: 0 30px;
     border-top: 1px solid lightgrey;
 }
+
+.rules-box .buttons button {
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #9e43a2;
+    transition: all 0.3s ease;
+}
+
+.quiz-box {
+    width: 550px;
+    background: #fff;
+    border-radius: 5px;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
