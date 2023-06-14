@@ -181,3 +181,32 @@ body {
     height: 3px;
     background: #9e43a2;
 }
+
+section{
+    padding: 25px 30px 20px 30px;
+    background: #fff;
+}
+
+section .question-text{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+section .option-list{
+    padding: 20px 0px;
+    display: block;   
+}
+
+section .option-list .option{
+    background: aliceblue;
+    border: 1px solid #84c5fe;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
