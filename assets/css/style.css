@@ -446,4 +446,9 @@ footer button.show{
         width: 300px;
         min-width: 300px
     }
+
+    .result_box .buttons button{
+        font-size: 14px;
   }
+
+}
