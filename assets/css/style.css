@@ -120,7 +120,7 @@ body{
 }
 
 .quiz_box{
-    width: 300px;
+    width: 400px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -400,3 +400,21 @@ footer button.show{
     color: #fff;
     background: #8372AA;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+    .quiz_box{
+        width: 300px;
+        
+    }
+
+    .btn {
+        font-size: 12px;
+        width: 80px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+  }
