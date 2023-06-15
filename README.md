@@ -131,5 +131,5 @@ Friends Quiz is a quick and straightforward quiz of 15 questions based on the fa
 
 - ## Code
 
-    -  Javascript code ideias taken from the follow youtubers: [WebDevSimplified](https://www.youtube.com/@WebDevSimplified), [Programming with Mosh](https://www.youtube.com/c/programmingwithmosh), [CodeWithHarry](https://www.youtube.com/channel/UCeVMnSShP_Iviwkknt83cww)
+    -  Javascript code ideias and concepts taken from the follow youtubers: [WebDevSimplified](https://www.youtube.com/@WebDevSimplified), [Programming with Mosh](https://www.youtube.com/c/programmingwithmosh), [CodingNepal](https://www.youtube.com/@CodingNepal), [CodeWithHarry](https://www.youtube.com/channel/UCeVMnSShP_Iviwkknt83cww) .
     
