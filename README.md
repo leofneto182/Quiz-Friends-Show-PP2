@@ -80,6 +80,12 @@ Friends Quiz is a quick and straightforward quiz of 15 questions based on the fa
 
 * All the buttons, features are working as expected.
 
+## Bugs
+
+- ### Unsolved bugs
+
+    * The time line bar is reaching the end before the time goes off.
+
 ## Validator Testing
 
 - ### HTML
