@@ -404,6 +404,15 @@ footer button.show{
 /* Media Queries */
 
 @media only screen and (max-width: 600px) {
+    .info_box {
+        width: 280px;
+
+    }
+
+    .info-title span{
+        font-size: 22px;
+    }
+
     .quiz_box{
         width: 300px;
         
@@ -416,5 +425,9 @@ footer button.show{
 
     .title {
         font-size: 25px;
+    }
+
+    .score_text span p{
+        
     }
   }
