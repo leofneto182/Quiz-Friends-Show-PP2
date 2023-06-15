@@ -64,6 +64,7 @@ Friends Quiz is a quick and straightforward quiz of 15 questions based on the fa
 # Design
 
 * The design was created to be simple and intuitive to make the user replay the quiz as many times they want and fast, in order to get the 15 questions right.
+* The fonts used in this project are 'Oswald', sans-serif and "Gabriel Weiss Friends Font".
 
 * The colours palette is based on the Monica's apartment door, famous for the contrast and the distinct purple colour: 
 
@@ -120,6 +121,9 @@ Friends Quiz is a quick and straightforward quiz of 15 questions based on the fa
 
 
 - ## Media
+
+    - 'Gabriel Weiss Friends Font Font
+' taken from [fontmeme.com](https://fontmeme.com/fonts/gabriel-weiss-friends-font-font/) Author: Gabriel Weiss
 
     - Favicon image got from [redbubble.com](https://www.redbubble.com/i/sticker/Monica-Turkey-Head-Thanksgiving-by-izzydoodlesshop/40966541.EJUG5)
 
