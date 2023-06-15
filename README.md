@@ -73,7 +73,59 @@ Friends Quiz is a quick and straightforward quiz of 15 questions based on the fa
 
 ![Turkey's Head](assets/images/Favicon-image.png)
 
+# Testing
+
+*  The website was built to be responsive on screens 320px wide and above.
+
+* All the buttons, features are working as expected.
+
+## Validator Testing
+
+- ### HTML
+
+    * No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/).
+
+    ![W3C Validator screenshot](assets/images/W3C-validator.png)
+
+- ### CSS
+
+    * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
+
+    ![Jigsaw Validator screenshot](assets/images/Jigsaw.png)
+
+- ### Lighthouse
+
+    ![Lighthouse screenshot](assets/images/Lighthouse.png)
+
+- ### Wave
+
+    ![Wave Screenshot](assets/images/Wave.png)
 
 
+# Deployment 
+
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+    - In the GitHub repository, navigate to the Settings tab;
+    - From the source section drop-down menu, select the Master Branch
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+* The link can be found here: https://leofneto182.github.io/Quiz-Friends-Show-PP2/
+
+# Credits
+
+- ## Questions Content
+    
+    - All the questions and answers content was taken from: [beano.com](https://www.beano.com/posts/the-ultimate-friends-trivia-quiz)
 
 
+- ## Media
+
+    - Favicon image got from [redbubble.com](https://www.redbubble.com/i/sticker/Monica-Turkey-Head-Thanksgiving-by-izzydoodlesshop/40966541.EJUG5)
+
+    - Monica's apartment door palette coulours taken from: [pinterest.ie](https://www.pinterest.ie/pin/AcT43PGI45QLha7r3RprCkTlsyW9YZvPy30TJMGE3gdVe8gUhwtWvfY/)
+
+- ## Code
+
+    -  Javascript code ideias taken from the follow youtubers: [WebDevSimplified](https://www.youtube.com/@WebDevSimplified), [Programming with Mosh](https://www.youtube.com/c/programmingwithmosh), [CodeWithHarry](https://www.youtube.com/channel/UCeVMnSShP_Iviwkknt83cww)
+    
