@@ -1,6 +1,6 @@
 # Friends Quiz
 
-Friends Quiz is a quick and straightforward quiz of 15 questions based on the famous american TV show from 1994 tha has entertained generations of comedy fans, including myself.
+Friends Quiz is a quick and straightforward quiz of 15 questions based on the famous american TV show from 1994 that has entertained generations of comedy fans, including myself.
 
 ![Resposive image](/assets/images/responsive-image.png)
 
