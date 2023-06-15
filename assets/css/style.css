@@ -229,8 +229,8 @@ section .option_list .option:last-child{
 
 section .option_list .option:hover{
     color: #004085;
-    background: #cce5ff;
-    border: 1px solid #b8daff;
+    background: #D2C385;
+    border: 1px solid #9C8CD4;
 }
 
 section .option_list .option.correct{
@@ -358,7 +358,9 @@ footer button.show{
 }
 
 .result_box .score_text span p{
-    padding: 0 4px;
+    display: flex;
+    padding: 3px 3px;
+    
     font-weight: 600;
 }
 
@@ -427,7 +429,16 @@ footer button.show{
         font-size: 25px;
     }
 
-    .score_text span p{
-        
+    .complete_text {
+        font-size: 10px;
+    }
+    .result_box .score_text span{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .result_box{
+        width: 300px;
+        min-width: 300px
     }
   }
