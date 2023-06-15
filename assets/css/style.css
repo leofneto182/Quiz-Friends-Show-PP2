@@ -194,22 +194,22 @@ body{
     background: #9e43a2;
 }
 
-section{
+.section{
     padding: 25px 30px 20px 30px;
     background: #fff;
 }
 
-section .que_text{
+.section .que_text{
     font-size: 25px;
     font-weight: 600;
 }
 
-section .option_list{
+.section .option_list{
     padding: 20px 0px;
     display: block;   
 }
 
-section .option_list .option{
+.section .option_list .option{
     background: aliceblue;
     border: 1px solid #9C8CD4;
     border-radius: 5px;
@@ -223,33 +223,33 @@ section .option_list .option{
     justify-content: space-between;
 }
 
-section .option_list .option:last-child{
+.section .option_list .option:last-child{
     margin-bottom: 0px;
 }
 
-section .option_list .option:hover{
+.section .option_list .option:hover{
     color: #004085;
     background: #D2C385;
     border: 1px solid #9C8CD4;
 }
 
-section .option_list .option.correct{
+.section .option_list .option.correct{
     color: #155724;
     background: #d4edda;
     border: 1px solid #c3e6cb;
 }
 
-section .option_list .option.incorrect{
+.section .option_list .option.incorrect{
     color: #721c24;
     background: #f8d7da;
     border: 1px solid #f5c6cb;
 }
 
-section .option_list .option.disabled{
+.section .option_list .option.disabled{
     pointer-events: none;
 }
 
-section .option_list .option .icon{
+.section .option_list .option .icon{
     height: 26px;
     width: 26px;
     border: 2px solid transparent;
