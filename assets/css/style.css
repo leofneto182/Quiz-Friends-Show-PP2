@@ -348,6 +348,11 @@ footer button.show{
 .result_box .complete_text{
     font-size: 20px;
     font-weight: 500;
+    text-align: center;
+}
+
+.complete_text_result {
+    font-family: "Gabriel Weiss Friends Font";
 }
 
 .result_box .score_text span{
